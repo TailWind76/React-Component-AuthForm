@@ -262,12 +262,14 @@ overflow: hidden;
 
 }
 .google_auth{
+  box-sizing: border-box;
+  padding: 2%;
   cursor: pointer;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: row-reverse;
   align-items: center;
-  display: block;
+  justify-content: space-around;
+  align-items: center;
   width: 50%;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
@@ -275,18 +277,19 @@ overflow: hidden;
 }
 
 .google_auth img{
-  float: left;
+ display: block;
   width: 20%;
   height: 80%;
 }
 
 .google_auth p{
-  float: right;
+ 
   width: 70%;
   display: block;
   height: 50%;
   font-weight: bold;
   color: #2f2e30;
+  margin: 0;
  
  
 }
